@@ -1,0 +1,17 @@
+{
+  "name": "jira-webhook-agent",
+  "version": "1.0.0",
+  "description": "Jira 웹훅 수신 → inbox md 생성 (Confluence 참조용). Cursor에서 해당 md 기반 코딩.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "dotenv": "^16.4.5"
+  }
+}
